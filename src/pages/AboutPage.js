@@ -106,7 +106,7 @@ const AboutPage = () => {
               My goal is to leverage my skills to create useful, engaging, and intuitive data solutions that help people and organizations make better decisions. I am ready to bring your digital visions to life. Let's connect and embark on an exciting journey of innovation together!
             </p>
           </div>
-          <a href="/resume.pdf" download>
+          <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download>
           <button className="bg-lime-400 text-black font-bold py-4 px-6 rounded-lg flex items-center justify-center text-lg hover:bg-yellow-400 transition-colors">
             <DownloadIcon />
             MY RESUME

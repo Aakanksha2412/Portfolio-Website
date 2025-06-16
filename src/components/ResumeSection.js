@@ -43,7 +43,7 @@ const ResumeSection = () => {
             </button>
 
             <iframe
-              src="/resume.pdf"
+              src={`${process.env.PUBLIC_URL}/resume.pdf`}
               title="Resume"
               className="w-full h-full"
               frameBorder="0"

@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage';
 const App = () => {
   return (
     <div className="min-h-screen bg-black font-inter text-gray-200 antialiased overflow-x-hidden">
-      <Router basename="/my-portfolio">
+      <Router basename="/Portfolio-Website">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
