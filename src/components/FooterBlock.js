@@ -35,15 +35,16 @@ const FooterBlock = () => {
                     <li>
                     <Link to="/" className="hover:text-white">Home</Link>
                     </li>
-                    <li>
-                    <Link to="/projects" className="hover:text-white">Projects</Link>
-                    </li>
-                    <li>
+                     <li>
                     <Link to="/about" className="hover:text-white">About</Link>
                     </li>
                     <li>
                     <Link to="/skills" className="hover:text-white">Skills</Link>
                     </li>
+                    <li>
+                    <Link to="/projects" className="hover:text-white">Projects</Link>
+                    </li>
+                   
                 </ul>
             </div>
 

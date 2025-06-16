@@ -43,7 +43,7 @@ const HeroSection = () => {
         style={{ writingMode: 'vertical-rl' }}
         >
         <span className="text-gray-500 opacity-30 tracking-[0.3em] uppercase font-semibold text-8xl whitespace-nowrap">
-            DISCOVER
+            DEVELOPER
         </span>
         </div>
 
@@ -114,7 +114,7 @@ const HeroSection = () => {
         style={{ writingMode: 'vertical-rl' }}
         >
         <span className="text-gray-500 opacity-30 tracking-[0.3em] uppercase font-semibold text-8xl whitespace-nowrap">
-            EXPLORE
+            DEVELOPER
         </span>
         </div>
 
