@@ -86,10 +86,10 @@ const ExperienceSection = () => {
                 <h1 className="text-3xl font-bold uppercase tracking-wider">Work Experience</h1>
             </div>
             <div className="relative">
-                {/* The vertical timeline bar */}
-                <div className="absolute left-1/2 w-0.5 h-full bg-zinc-700 -translate-x-1/2"></div>
+                {/* The vertical timeline bar - responsive positioning */}
+                <div className="absolute left-5 top-0 h-full w-0.5 bg-zinc-700 md:left-1/2 md:-translate-x-1/2"></div>
                 
-                <div className="space-y-12">
+                <div className="space-y-8">
                     {experiences.map((exp, index) => (
                         <ExperienceItem key={index} {...exp} side={index % 2 === 0 ? 'left' : 'right'} />
                     ))}

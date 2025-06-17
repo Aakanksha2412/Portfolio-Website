@@ -30,19 +30,19 @@ const FooterBlock = () => {
 
             {/* Column 2: Sitemap */}
             <div className="md:col-span-1">
-                <h4 className="font-bold uppercase text-sm mb-4">Sitemap</h4>
+                <h4 className="font-bold uppercase text-orange-800 text-sm mb-4">Sitemap</h4>
                 <ul className="space-y-2 text-sm">
                     <li>
-                    <Link to="/" className="hover:text-white">Home</Link>
+                    <Link to="/" className="hover:text-orange-800 ">Home</Link>
                     </li>
                      <li>
-                    <Link to="/about" className="hover:text-white">About</Link>
+                    <Link to="/about" className="hover:text-orange-800 ">About</Link>
                     </li>
                     <li>
-                    <Link to="/skills" className="hover:text-white">Skills</Link>
+                    <Link to="/skills" className="hover:text-orange-800 ">Skills</Link>
                     </li>
                     <li>
-                    <Link to="/projects" className="hover:text-white">Projects</Link>
+                    <Link to="/projects" className="hover:text-orange-800 ">Projects</Link>
                     </li>
                    
                 </ul>
@@ -51,7 +51,7 @@ const FooterBlock = () => {
             {/* Column 3 & 4: Socials and Contact */}
             <div className="md:col-span-2 flex flex-col justify-between items-start md:items-end">
                 <div>
-                    <h4 className="font-bold uppercase text-sm mb-4 text-left md:text-right">Follow me on</h4>
+                    <h4 className="font-bold uppercase text-sm mb-4 text-orange-800 text-left md:text-right">Follow me on</h4>
                     <div className="flex space-x-4">
                         <a href="https://www.linkedin.com/in/aakanksha-sonawane/" aria-label="LinkedIn" className="hover:text-white"><LinkedInIcon /></a>
                         

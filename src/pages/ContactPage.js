@@ -5,7 +5,7 @@ const ContactPage = () => {
   return (
     <section
       id="contact"
-      className="relative py-20 bg-black p-6 md:p-12 min-h-[calc(100vh-80px-116px)] flex items-center overflow-hidden"
+      className="relative py-20 bg-black p-6 md:p-12 min-h-screen flex items-center overflow-hidden"
     >
       {/* Inject Particle in Background */}
       <div className="absolute inset-0 z-0">
