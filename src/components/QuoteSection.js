@@ -55,7 +55,7 @@ const Quote = ({ text, author }) => {
               className={`inline-block transition-all duration-500 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: `${index * 50}ms` }}
             >
-              {word}
+              {word}  
             </span>
           </span>
         ))}

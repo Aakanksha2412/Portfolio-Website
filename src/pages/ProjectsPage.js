@@ -9,35 +9,35 @@ const ProjectsPage = () => {
             description: "Collected, cleaned, and analyzed Uber ride data to uncover usage patterns. Created interactive dashboards to support operational planning and marketing strategies.",
             image: "https://placehold.co/400x250/262626/ffffff?text=Uber+Analysis",
             tags: ['Python', 'Matplotlib', 'Seaborn','Tableau','Jupyter'],
-            projectLink: "https://github.com/Aakanksha2412"
+            projectLink: "https://github.com/Aakanksha2412/Uber-Rides-Data-Analysis"
         },
         {
             title: "Energy Consumption Prediction",
             description: "Assembled predictive models to forecast hourly energy demand, leveraging R and Python for feature engineering on a dataset with over 4 million observations.",
             image: "https://placehold.co/400x250/262626/ffffff?text=Energy+Forecast",
             tags: ['R', 'Python', 'Machine Learning', 'Shiny'],
-            projectLink: "https://github.com/Aakanksha2412"
+            projectLink: "https://github.com/Aakanksha2412/Energy-Consumption-Prediction"
         },
         {
             title: "Reddit WallStreetBets Sentiment Analysis",
             description: "Developed NLP pipelines to analyze sentiment from WallStreetBets posts using Python, Vader, GloVe, and LSTM models, improving model efficiency by 20%.",
             image: "https://placehold.co/400x250/262626/ffffff?text=Reddit+NLP",
             tags: ['Python', 'NLP', 'Pandas', 'LSTM'],
-            projectLink: "https://github.com/Aakanksha2412"
+            projectLink: "https://github.com/Aakanksha2412/Reddit-WallStreetBets-Sentiment-Analysis"
         },
         {
             title: "NY AirBnB Data Analysis",
             description: "Exploratory data analysis and visualization of NYC AirBnB listings using Python, Pandas, and Seaborn. Uncovered insights on pricing trends, location patterns, and host behavior.",
             image: "https://placehold.co/400x250/262626/ffffff?text=AirBnB+Analysis",
             tags: ['Python', 'Matplotlib', 'Pandas', 'Seaborn','Tableau','Jupyter'],
-            projectLink: "https://github.com/Aakanksha2412"
+            projectLink: "https://github.com/Aakanksha2412/NYC_AirBnb-Analysis"
         },
         {
             title: "WealthMitra – Financial Management System",
             description: "Built a full-stack(.Net React) financial management platform to track and analyze personal income and expenses. Developed REST APIs with Node.js, implemented user-specific dashboards in React.js, and integrated Microsoft SQL Server for secure data storage. Enabled insightful visualizations and improved financial planning for users.",
             image: "https://placehold.co/400x250/262626/ffffff?text=WealthMitra+FMS",
             tags: ['.Net', 'C#', 'Angular', 'SQL Server','REST APIs','Full-Stack'],
-            projectLink: "https://github.com/Aakanksha2412"
+            projectLink: "https://github.com/Aakanksha2412/WealthMitra"
         },
         {
           title: "Portfolio Website",
