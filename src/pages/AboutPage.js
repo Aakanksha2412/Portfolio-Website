@@ -55,7 +55,7 @@ const AboutPage = () => {
           </div>
           <div className="text-gray-300 space-y-4 text-base leading-relaxed">
             <p>
-              A Business Intelligence & Data Analyst with 2 years of experience, currently pursuing a Master's in Information Systems at Syracuse University.
+              A Business Intelligence & Data Analyst with 2 years of experience, with Master's in Information Systems at Syracuse University.
             </p>
             <p>
               My expertise lies in transforming complex data into actionable insights through advanced data cleaning, visualization, and dashboard development using SQL, Power BI, Tableau, and Python.
