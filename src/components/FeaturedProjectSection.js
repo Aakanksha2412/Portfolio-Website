@@ -17,13 +17,13 @@ const featuredProjects = [
             tags: ['Python', 'Matplotlib', 'Seaborn', 'Jupyter'],
             projectLink: "https://github.com/Aakanksha2412/Uber-Rides-Data-Analysis"
         },
-  {
-            title: "Portfolio Website",
-            description: "My personal portfolio website built from scratch to showcase my skills and projects, designed with a modern aesthetic using React and Tailwind CSS.",
-            image: "https://placehold.co/400x250/262626/ffffff?text=Portfolio",
-            tags: ['React', 'Tailwind CSS', 'JavaScript', 'Vite'],
-            projectLink: "https://github.com/Aakanksha2412/Portfolio-Website"
-    }
+   {
+            title: "ETL Weather-Airflow",
+            description: "A Python-based ETL pipeline built with Apache Airflow to automate daily extraction, transformation, and loading of weather data from a public API. The project showcases task scheduling, API integration, retry logic, and Airflow’s UI for monitoring and visualization.",
+            image: "https://placehold.co/400x250/262626/ffffff?text=ETL+Weather",
+            tags: ['Python', 'Airflow', 'REST API', 'ETL', 'Data Pipeline', 'Docker', 'Postgres'],
+            projectLink: "https://github.com/Aakanksha2412/ETL_Weather-Airflow"
+        }
 ];
 // Animation variants
 const containerVariants = {

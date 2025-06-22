@@ -5,6 +5,13 @@ import { Briefcase } from 'lucide-react';
 const ProjectsPage = () => {
   const projects = [
         {
+            title: "ETL Weather-Airflow",
+            description: "A Python-based ETL pipeline built with Apache Airflow to automate daily extraction, transformation, and loading of weather data from a public API. The project showcases task scheduling, API integration, retry logic, and Airflow’s UI for monitoring and visualization.",
+            image: "https://placehold.co/400x250/262626/ffffff?text=ETL+Weather",
+            tags: ['Python', 'Airflow', 'REST API', 'ETL', 'Data Pipeline', 'Docker', 'Postgres'],
+            projectLink: "https://github.com/Aakanksha2412/ETL_Weather-Airflow"
+        },
+         {
             title: "Uber-Rides Data Analysis",
             description: "Collected, cleaned, and analyzed Uber ride data to uncover usage patterns. Created interactive dashboards to support operational planning and marketing strategies.",
             image: "https://placehold.co/400x250/262626/ffffff?text=Uber+Analysis",
